@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <title>程 式 集</title>
+    <script src="{{ url_for('static', filename='/timetable/script.js') }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='/timetable/style.css') }}">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ url_for('home_index_page') }}">程 式 集</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('home_index_page') }}">主 頁<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home_index_page') }}">時 間 表</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <p>&nbsp;</p>
+
+    <h1>建造證書課程時間表</h1>
+
+ <!--   <a href="/pdf_files/tt/0.pdf" class="button">建造文憑</a>
+
+    <a href="/pdf_files/tt/0.pdf" class="button">建造證書</a>
+-->
+
+    <p>&nbsp;</p>
+<h3>砌磚鋪瓦</h3>
+<div class="btn-group" style="width:100%">
+  <button style="width:100%"><a href="/pdf_files/tt/ccbt21001.pdf">CCBT21001</button></a>
+</div>
+
+    <p>&nbsp;</p>
+<h3>細木工藝</h3>
+<div class="btn-group" style="width:100%">
+  <button style="width:100%"><a href="/pdf_files/tt/ccjn21001.pdf">CCJN21001</button></a>
+</div>
+
+    <p>&nbsp;</p>
+<h3>油漆粉飾</h3>
+    <div class="btn-group" style="width:100%">
+    <button style="width:100%"><a href="/pdf_files/tt/ccpd21001.pdf">CCPD21001</button></a>
+    </div>
+
+    <p>&nbsp;</p>
+<h3>機械維修</h3>
+    <div class="btn-group" style="width:100%">
+    <button style="width:100%"><a href="/pdf_files/tt/ccpm21001.pdf">CCPM21001</button></a>
+    </div>
+
+    <p>&nbsp;</p>
+<h3>水喉</h3>
+    <div class="btn-group" style="width:100%">
+    <button style="width:100%"><a href="/pdf_files/tt/ccpp21001.pdf">CCPP21001</button></a>
+    </div>
+
+    <p>&nbsp;</p>
+<h3>電力裝置</h3>
+    <div class="btn-group" style="width:100%">
+    <button style="width:100%"><a href="/pdf_files/tt/ccec21001.pdf">CCEC21001</button></a>
+    </div>
+
+    <p>&nbsp;</p>
+<h3>工地測量</h3>
+    <div class="btn-group" style="width:100%">
+    <button style="width:100%"><a href="/pdf_files/tt/ccss21001.pdf">CCSS21001</button></a>
+    </div>
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+
+  </body>
+
+  <style>
+    body {
+        background-color: #212121;
+        color: white
+    }
+  </style>
+
+
+</html>
