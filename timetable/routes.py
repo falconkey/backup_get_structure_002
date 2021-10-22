@@ -5,15 +5,9 @@ from flask import Flask, send_from_directory, render_template
 from flask import Blueprint
 
 app_001 = Blueprint('app_001', __name__, template_folder='templates', static_folder='static')
-#app_001 = Blueprint('app_001', __name__)
-
-#@app_001.route('/')
-#def first_home_page():
-#    return render_template('timetable/index.html')
 
 @app_001.route('/tt')
 def tt_index_page():
-#    return ("show tt")
     return render_template('timetable/tt_index.html')
 
 @app_001.route('/tt_dic_index')

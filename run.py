@@ -4,13 +4,8 @@ from mainhome.routes import app_000
 from timetable.routes import app_001
 from student_sv_record.routes import app_002
 
-
 app = Flask(__name__)
-
-#@app.route('/')
-#def home_index_page():
-#    return render_template('index.html')
-#    return "<H1>Page is not ready"
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 app.register_blueprint(app_000)
 app.register_blueprint(app_001)
