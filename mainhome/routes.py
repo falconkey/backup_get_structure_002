@@ -9,8 +9,6 @@ app_000 = Blueprint('app_000', __name__, template_folder='templates', static_fol
 @app_000.route('/')
 def first_home_page():
     return render_template('mainhome/index.html')
-#    return "under"
-
 
 #if __name__ == '__main__':
 #    app.run(host='127.0.0.1', port=8080, debug=True)
